@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.header {
+    background-color:#0025ff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+
+.pepsi {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-right: 70px;
+
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display list items horizontally */
+}
+
+.list li {
+    font-weight: 900;
+    font-size: 0.875rem;
+    margin-right: 50px; /* Add space between list items */
+    color: aliceblue;
+    cursor: pointer;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+}
+
+.buy button {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid;
+    padding: .3em 1.85em;
+    color: white;
+    cursor: pointer;
+    width: 235px;
+    font-weight: 900;
+    font-size: .875rem;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 980px;
+    margin-right: 100px;
+
+}
+
+.video01 video {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+.celeb {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    padding: 3em 0 0 0;
+}
+
+.text h2 {
+    color: white;
+    font-size: 70px;
+    line-height: 63px;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text h3 {
+    color: white;
+    font-size: 42px;
+    margin-top: 0;
+    line-height: 45px;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.follow button {
+    font-size: 52px;
+    line-height: 52px;
+    padding: 0.55em;
+    margin: 1em 0 1.3em 0;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    background-color: #0025ff;
+    cursor: pointer;
+}
+
+.year img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.enter h2{
+    color: white;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.enter h3{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 2px;
+    line-height: 30px;
+    color: #1636ff;
+    font-weight: 900;
+    margin: 0;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.enter .dinner{
+    color: white;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+    margin: 0;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.enter .dinner span{
+    color: #1636ff;
+}
+
+.EnterNow{
+    position: relative;
+    text-align: center;
+
+}
+
+.EnterNow img{
+    width: 100%;
+}
+
+.Purchase{
+    position: absolute;
+    top: 95%; /* Adjust this value to vertically center the text as desired */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    width: 100%;
+   
+}
+
+.Purchase p{
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 2em 0;
+    font-weight: 300;
+    color: white;
+}
+
+.video02 video {
+    width: 100%;
+    height: 100%;
+}
+
+.social-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+}
+
+.social-text h2{
+    text-align: center;
+    font-size: 42px;
+    padding: 1rem 0;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1636ff;
+    font-weight: 900;
+    margin: 0;
+}
+
+.social-icon{
+    flex-wrap: wrap;
+    width: 90%;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row nowrap;
+    height: 280px;
+    margin: auto;
+    margin-top: 0;
+    font-size: 0;
+    border: 3px solid #1636ff;
+    padding-bottom: 2em;
+}
+
+.social-insta img{
+    position: relative;
+    height: 280px;
+    flex: auto;
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.social-insta .insta img{
+
+    content: "";
+    position: absolute;
+    left: 7rem;
+    top: 5880px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.social-twit img{
+    position: relative;
+    height: 280px;
+    flex: auto;
+    width: 290px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-twit .twit img{
+
+    content: "";
+    position: absolute;
+    left: 26rem;
+    top: 5880px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    cursor: pointer;
+}
+
+
+.social-fb img{
+    position: relative;
+    height: 280px;
+    flex: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-fb .fb img{
+
+    content: "";
+    position: absolute;
+    left: 44rem;
+    top: 5880px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    cursor: pointer;
+}
+
+
+.social-you img{
+    position: relative;
+    height: 280px;
+    flex: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-you .you img{
+
+    content: "";
+    position: absolute;
+    left: 62rem;
+    top: 5880px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.social-tik img{
+    position: relative;
+    height: 280px;
+    flex: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-tik .tik img{
+
+    content: "";
+    position: absolute;
+    left: 79rem;
+    top: 5880px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.social-thred img{
+    position: relative;
+    height: 280px;
+    flex: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-thred .thred img{
+
+    content: "";
+    position: absolute;
+    left: 96rem;
+    top: 5880px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #0025ff;
+    margin-top: 40px;
+}
+
+.plogo{
+    display: inline-block;
+}
+.plogo img{
+    display: inline-block;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 45px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flist{
+    align-items: center;
+}
+.flist ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    column-count: 3;
+    column-gap: 4rem;
+    display: inline-block;
+
+}
+
+.flist li{
+    transition: opacity .2s ease-out;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    font-size: .875rem;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.fs-container{
+    display: flex;
+    width: 17%;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fs-container .slink{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
